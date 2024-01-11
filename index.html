@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+
+
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100;
+
+            height: 100;
+        }
+
+        body {
+            /* background-color: rgb(12, 12, 71); */
+            background-color: rgb(0, 0, 1);
+            color: white;
+            font-family: 'popins', sans-serif;
+        }
+
+
+
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 85px;
+            background-color: rgb(8, 8, 56);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 7%;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(71, 71, 91);
+            font-size: 1.2rem;
+        }
+
+
+
+        .left {
+            font-size: 155%;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 6% 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            margin: 10%;
+            font-size: 250%;
+        }
+
+        .rightsection img {
+            margin: 1%;
+            width: 40vh;
+            /* height: 70%; */
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+
+
+
+
+        .boxbiodata {
+            margin-left: 15%;
+            /* width: 40%; */
+            display: flex;
+        }
+
+        
+
+        .boxbiodata .biodata {
+            color: greenyellow;
+            font-size: 140%;
+            width: 50%;
+            margin-left: 15%;
+            margin-top: 10%;
+        }
+
+
+        #element {
+            color: chartreuse;
+        }
+
+
+        .Educationsection {            
+            margin: auto;
+            max-width: 84vw;
+            /* width: 84vw; */
+            /* margin: auto; */
+        }
+
+        .main hr01 {
+            margin: 100px 0px 10px;
+        }
+
+        .Educationsection h1 {
+            font-size: 2rem;
+        }
+
+        .Educationsection .box {
+            background-color: white;
+            width: 57%;
+            height: 2px;
+            margin: 90px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .Educationsection .vertical {
+            height: 113px;
+            width: 1px;
+            background-color: white;
+            margin: 0 6vw;
+            /* margin: 0 6vw; */
+        }.secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 6vw;
+        }.secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 6vw;
+        }
+
+        /* .Educationsection .vertical-title {
+            font-size: 30px;
+        } */
+
+        .vertical-title2 {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 20px;
+        }
+
+        .green {
+            color: darkgreen;
+        }
+
+        .vertical-desc2{
+            position: relative;
+            top: 80px;
+            width: 170px;
+            color: rgb(128, 95, 95);
+            font-size: 100%;
+        }
+        .secondsection {
+            margin: auto;
+            max-width: 84vw;
+        }
+        
+
+        main hr {
+            border: 0;
+            background: lightblue;
+            height: 1.2px;
+            margin: 600px 84px 60px;
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        .secondsection {
+            position: relative;
+            margin: 150px;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 97%;
+            height: 3px;
+            margin: 90px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 6vw;
+        }
+
+        .image-top {
+            width: 25px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 20px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 80px;
+            width: 170px;
+            color: rgb(128, 95, 95);
+            font-size: 100%;
+        }
+
+        footer{
+            background-color: #0e0e1a;
+            /* height: 260px; */
+        }
+
+        .footer{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 500px 0px 0px 0px;
+            /* padding: 40px; */
+        }
+
+        .footer ul li{
+            padding: 10px;
+            list-style: none;
+        }
+        .footer > div {
+            width: 180px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: blueviolet;
+            padding: 45px 0px 8px 0px;
+        }
+
+        
+        @media screen and (max-width: 1200px){
+            body{
+                /* background-color: aqua; */
+            }
+            .box{
+            flex-direction: column;
+            }
+            .secondsection .vertical {
+            height: unset;
+            }
+            .vertical-title, .vertical-desc{
+                left: 40px;
+            }
+            .secondsection .box{
+                width: 50vw;
+            }
+            nav{
+                flex-direction: column;
+            }
+            footer{
+                display: none;
+            }
+            .firstsection {
+                flex-direction: column-reverse;
+            }
+            .leftsection {
+                width: 100% !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .rightsection{
+                /* width: 721px !important; */
+                width: 221px !important;
+            }
+            .boxbiodata{
+                width: 80% !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .Educationsection .vertical {
+                height: unset;
+            }
+            .Educationsection .box{
+                width: 50vw;
+            }
+            .vertical-title2, .vertical-desc2{
+                left: 40px;
+            }
+            .vertical-desc{
+                left: 40px;
+            }
+            .Educationsection .box{
+                width: 40vw;
+            }
+            .hr{
+                width: 50vw;
+            }
+            .Educationsection {
+                max-width: 80vw;
+                margin: auto;
+                height: 80vh;
+                display: flex;
+                flex-direction: column;
+                /* justify-self: center; */
+                align-items: center;
+            }
+            .secondsection {
+                max-width: 80vw;
+                margin: auto;
+                height: 80vh;
+                display: flex;
+                flex-direction: column;
+                /* justify-self: center; */
+                align-items: center;
+            }
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+
+            <div class="left">Utkarsh Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Pojects</a></li>
+                    <li><a href="/">ContactMe</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div>Hi, My name is <span class="purple"> Utkarsh Mishra.</span></div>
+                <div>and i am passionate</div>
+                <!-- <div>and i am Frontend Developer.</div> -->
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="hlo.jpg" alt="">
+                <!-- <img src="hlo.pnh" alt=""> -->
+            </div>
+        </section>
+
+
+
+        <div class="boxbiodata">
+            <div class="biophoto">
+                <img src="re_pho-removebg-preview.png" alt="">
+
+            </div>
+
+            <div class="biodata">
+                <!-- Hi, My name is Utkarsh Mishra, i have cleared the diploma in batch of 2018-2021. and now, i am a
+                    B-tech
+                    Student.
+
+                    I am a passionate and detail-oriented Frontend Developer, eager to embark on a journey in the world
+                    of
+                    web development. With a strong foundation in HTML, CSS, bootstrap framework, tailwind.css, and
+                    JavaScript, I am excited to bring creativity and innovation to the user interface of websites and
+                    applications. I am constantly seeking opportunities to expand my knowledge and stay up-to-date with
+                    the
+                    latest industry trends. I believe in the power of user-centered design and am committed to creating
+                    intuitive and visually appealing digital experiences. As a newcomer to the field, I am enthusiastic
+                    about collaborating with experienced professionals, learning from them, and contributing my skills
+                    to
+                    create remarkable web solutions.
+
+                    Key Skills--<br>
+                    - HTML5
+                    <br>
+                    - CSS3
+                    <br>
+                    - JavaScript
+                    <br>
+                    - python
+                    <br>
+                    - Bootstrap
+                    <br>
+                    - Tailwind.css
+                    <br>
+                    - Responsive Web Design
+                    <br>
+                    - Problem Solving
+                    <br>
+                    - Adaptability and Quick Learner -->
+                <span id="element2"></span>
+            </div>
+
+        </div>
+
+
+
+        <!-- <hr01> -->
+        <section class="Educationsection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>My Education</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="" alt="" class="src">
+                    <div class="vertical-title2">
+                        Diploma 2018-2021.
+                    </div>
+
+                    <div class="vertical-desc2">
+                        Hi, my name is Utkarsh Mishra i am passout diploma in year of 2021 branch of digital electroincs
+                        from Chotu ram rural institute of technology.
+                        <div>percentage - 74%.</div>
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img src="" alt="" class="src">
+                    <div class="vertical-title2">
+                        B-tech <span class="green"> -Pursuing</span>
+                    </div>
+
+
+                    <div class="vertical-desc2">
+                        Hi, My name is Utkarsh Mishra.I am Student of B-tech in branch of Computer Science Engineering.
+                        And , i am a front-end developer. i have great knowledge in Html5, CSS, bootstrap framework,
+                        React js and basic knowledge in JavaScript.
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+
+
+        <hr>
+
+        <section class="secondsection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>My Knowledge</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="second.png" alt="">
+                    <div class="vertical-title">
+                        Frontend Development-
+                    </div>
+                    <div class="vertical-desc">
+                        Aspiring front-end developer eager to transform designs into user-friendly web interfaces.
+                        Proficient in HTML, CSS, and JavaScript, with a passion for creating responsive layouts and
+                        interactive features. Committed to staying updated with the latest front-end technologies and
+                        best practices to deliver exceptional user experiences.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="HTML logo.png" alt="">
+                    <div class="vertical-title">
+                        HTML, HTML5 Developer-
+                    </div>
+                    <div class="vertical-desc">
+                        HTML5: Proficient in creating and structuring web content using HTML5, including understanding
+                        of semantic elements.
+                        HTML Forms: Familiar with building forms and handling user input in HTML.
+                        HTML Validation: Knowledge of HTML validation techniques to ensure code quality.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="javascript logo.png" alt="">
+                    <div class="vertical-title">
+                        Javascript-
+                    </div>
+                    <div class="vertical-desc">
+                        Proficient in JavaScript fundamentals, including variables, functions, and data structures.
+                        Basic understanding of DOM manipulation and event handling.
+                        Keen interest in front-end frameworks like React and Vue.js, with a desire to deepen my skills.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="Css logo.png" alt="">
+                    <div class="vertical-title">
+                        CasCading Styles Sheet.-
+                    </div>
+                    <div class="vertical-desc">
+                        Proficient in CSS basics, including selectors, properties, and styling techniques.
+                        Familiarity with CSS layout systems like Flexbox and CSS Grid.
+                        Enthusiasm for creating responsive designs that adapt seamlessly to different screen sizes.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="bootstrap logo.jpeg" alt="">
+                    <div class="vertical-title">
+                        Bootstrap-
+                    </div>
+                    <div class="vertical-desc">
+                        Proficient in using Bootstrap's grid system for responsive web design.
+                        Familiarity with Bootstrap's pre-built components, such as navigation bars, cards, and modals.
+                        Keen on learning and customizing Bootstrap themes to suit project requirements.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="Reactjs logo.jpeg" alt="">
+                    <div class="vertical-title">
+                        Frame Work of React JS-
+                    </div>
+                    <div class="vertical-desc">
+                        Proficient in React.js fundamentals, including components, state management, and props.
+                        Familiarity with React Router for building single-page applications.
+                        Eager to learn and work with Redux for advanced state management.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Utkarsh Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>                    
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>                    
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            www.Utkarsh'sportfolio.com | All rights reserved.
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Desinger.', 'Frontend Developer.', 'Web Developer.'],
+            typeSpeed: 100,
+        });
+    </script>
+
+
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element2', {
+            strings: ['Hi, My name is Utkarsh Mishra. i have cleared the diploma in batch of 2018-2021. and now, I am a B-tech Student. I am a passionate and detail-oriented Frontend Developer, eager to embark on a journey in the world of web development. With a strong foundation in HTML, CSS, bootstrap framework, tailwind.css, and JavaScript, I am excited to bring creativity and innovation to the user interface of websites and applications. I am constantly seeking opportunities to expand my knowledge and stay up-to-date with the latest industry trends. I believe in the power of user-centered design and am committed to creating intuitive and visually appealing digital experiences. As a newcomer to the field, I am enthusiastic about collaborating with experienced professionals, learning from them, and contributing my skills to create remarkable web solutions <br> Key Skills--- <br> HTML5<br> - CSS3 <br> - JavaScript <br> - python <br> - Bootstrap <br> - Tailwind.css <br> - Responsive Web Design <br> - Problem Solving <br> - Adaptability and Quick Learner.']
+        });
+    </script>
+
+</body>
+
+
+
+
+</html>
